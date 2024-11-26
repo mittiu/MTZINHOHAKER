@@ -202,7 +202,7 @@ function createGameScene() {
         keysMaps[event.code] = false;
     };
 
-    let countdown = new Countdown(time, 15);
+    let countdown = new Countdown(time, 20);
     countdown.start();
 
     let completed = 0;
